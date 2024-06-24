@@ -31,8 +31,7 @@ This project indexes ERC20 token transfers on the Blast network and provides an 
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/web3-transfer-indexer.git
-cd web3-transfer-indexer
+git clone https://github.com/HalukG/web3-transfer-indexer.git
 ```
 
 2. Modify the `.env` file in the root directory based on token requirements
@@ -99,7 +98,7 @@ curl -X GET "http://localhost:3000/api/transfers/0x43000000000000000000000000000
 curl -X GET "http://localhost:3000/api/transfers/invalidaddress"
 ```
 
-4. Access Prisma Studio at http://localhost:5555 to view indexed data.
+4. Access Prisma Studio at `http://localhost:5555` to view indexed data.
 
 ## Potential Improvements
 
