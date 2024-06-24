@@ -109,14 +109,15 @@ Given more time, the following improvements could be made:
 2. Add filtering options for inbound/outbound transactions.
 3. Implement rate limiting and caching to improve API performance.
 4. Add support for indexing multiple tokens simultaneously.
-5. Add unit and integration tests.
+5. Implement a more robust error handling and retry mechanism. 
+6. Add unit and integration tests.
 
 ## Completion Status
 
-- [ ] Containerization with Docker
-- [ ] Use of specified tech stack (PostgreSQL, Prisma, Express.js, TypeScript, Viem)
-- [ ] Indexing of token transfers since inception
-- [ ] Public HTTP API for querying transfer history
+- [X] Containerization with Docker
+- [X] Use of specified tech stack (PostgreSQL, Prisma, Express.js, TypeScript, Viem)
+- [X] Indexing of token transfers since inception
+- [X] Public HTTP API for querying transfer history
 
 ## License
 
