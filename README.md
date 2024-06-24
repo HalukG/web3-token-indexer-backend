@@ -1,4 +1,4 @@
-# Web3 Transfer Indexer
+# Web3 Token Transfer Indexer
 
 This project indexes ERC20 token transfers on the Blast network and provides an API to query transfer history for specific addresses. It's built using TypeScript, Express.js, Prisma ORM, and Viem for blockchain interaction.
 
@@ -31,7 +31,7 @@ This project indexes ERC20 token transfers on the Blast network and provides an 
 
 1. Clone the repository:
 ```
-git clone https://github.com/HalukG/web3-transfer-indexer.git
+git clone https://github.com/HalukG/web3-token-indexer-backend.git
 ```
 
 2. Modify the `.env` file in the root directory based on token requirements
